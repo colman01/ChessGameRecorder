@@ -16,6 +16,7 @@
 		C00F79031BECA87700072969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00F79011BECA87700072969 /* LaunchScreen.storyboard */; };
 		C00F790E1BECA87700072969 /* ChessGameRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F790D1BECA87700072969 /* ChessGameRecorderTests.m */; };
 		C00F79191BECA87700072969 /* ChessGameRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F79181BECA87700072969 /* ChessGameRecorderUITests.m */; };
+		C00F79271BECAA5100072969 /* iPhone5S.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00F79261BECAA5100072969 /* iPhone5S.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C00F79141BECA87700072969 /* ChessGameRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessGameRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00F79181BECA87700072969 /* ChessGameRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessGameRecorderUITests.m; sourceTree = "<group>"; };
 		C00F791A1BECA87700072969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00F79261BECAA5100072969 /* iPhone5S.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone5S.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				C00F78F61BECA87700072969 /* ViewController.h */,
 				C00F78F71BECA87700072969 /* ViewController.m */,
 				C00F78F91BECA87700072969 /* Main.storyboard */,
+				C00F79261BECAA5100072969 /* iPhone5S.storyboard */,
 				C00F78FF1BECA87700072969 /* Assets.xcassets */,
 				C00F79011BECA87700072969 /* LaunchScreen.storyboard */,
 				C00F79041BECA87700072969 /* Info.plist */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C00F79031BECA87700072969 /* LaunchScreen.storyboard in Resources */,
+				C00F79271BECAA5100072969 /* iPhone5S.storyboard in Resources */,
 				C00F79001BECA87700072969 /* Assets.xcassets in Resources */,
 				C00F78FB1BECA87700072969 /* Main.storyboard in Resources */,
 			);
