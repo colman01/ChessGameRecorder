@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00F78F21BECA87700072969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F78F11BECA87700072969 /* main.m */; };
+		C00F78F51BECA87700072969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F78F41BECA87700072969 /* AppDelegate.m */; };
+		C00F78F81BECA87700072969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F78F71BECA87700072969 /* ViewController.m */; };
+		C00F78FB1BECA87700072969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00F78F91BECA87700072969 /* Main.storyboard */; };
+		C00F78FE1BECA87700072969 /* ChessGameRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C00F78FC1BECA87700072969 /* ChessGameRecorder.xcdatamodeld */; };
+		C00F79001BECA87700072969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00F78FF1BECA87700072969 /* Assets.xcassets */; };
+		C00F79031BECA87700072969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00F79011BECA87700072969 /* LaunchScreen.storyboard */; };
+		C00F790E1BECA87700072969 /* ChessGameRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F790D1BECA87700072969 /* ChessGameRecorderTests.m */; };
+		C00F79191BECA87700072969 /* ChessGameRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00F79181BECA87700072969 /* ChessGameRecorderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00F790A1BECA87700072969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00F78E51BECA87700072969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00F78EC1BECA87700072969;
+			remoteInfo = ChessGameRecorder;
+		};
+		C00F79151BECA87700072969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00F78E51BECA87700072969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00F78EC1BECA87700072969;
+			remoteInfo = ChessGameRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C00F78ED1BECA87700072969 /* ChessGameRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessGameRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00F78F11BECA87700072969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C00F78F31BECA87700072969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C00F78F41BECA87700072969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C00F78F61BECA87700072969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C00F78F71BECA87700072969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C00F78FA1BECA87700072969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C00F78FD1BECA87700072969 /* ChessGameRecorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChessGameRecorder.xcdatamodel; sourceTree = "<group>"; };
+		C00F78FF1BECA87700072969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C00F79021BECA87700072969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C00F79041BECA87700072969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00F79091BECA87700072969 /* ChessGameRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessGameRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00F790D1BECA87700072969 /* ChessGameRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessGameRecorderTests.m; sourceTree = "<group>"; };
+		C00F790F1BECA87700072969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00F79141BECA87700072969 /* ChessGameRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessGameRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00F79181BECA87700072969 /* ChessGameRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessGameRecorderUITests.m; sourceTree = "<group>"; };
+		C00F791A1BECA87700072969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00F78EA1BECA87700072969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00F79061BECA87700072969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00F79111BECA87700072969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00F78E41BECA87700072969 = {
+			isa = PBXGroup;
+			children = (
+				C00F78EF1BECA87700072969 /* ChessGameRecorder */,
+				C00F790C1BECA87700072969 /* ChessGameRecorderTests */,
+				C00F79171BECA87700072969 /* ChessGameRecorderUITests */,
+				C00F78EE1BECA87700072969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00F78EE1BECA87700072969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00F78ED1BECA87700072969 /* ChessGameRecorder.app */,
+				C00F79091BECA87700072969 /* ChessGameRecorderTests.xctest */,
+				C00F79141BECA87700072969 /* ChessGameRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00F78EF1BECA87700072969 /* ChessGameRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				C00F78F31BECA87700072969 /* AppDelegate.h */,
+				C00F78F41BECA87700072969 /* AppDelegate.m */,
+				C00F78F61BECA87700072969 /* ViewController.h */,
+				C00F78F71BECA87700072969 /* ViewController.m */,
+				C00F78F91BECA87700072969 /* Main.storyboard */,
+				C00F78FF1BECA87700072969 /* Assets.xcassets */,
+				C00F79011BECA87700072969 /* LaunchScreen.storyboard */,
+				C00F79041BECA87700072969 /* Info.plist */,
+				C00F78FC1BECA87700072969 /* ChessGameRecorder.xcdatamodeld */,
+				C00F78F01BECA87700072969 /* Supporting Files */,
+			);
+			path = ChessGameRecorder;
+			sourceTree = "<group>";
+		};
+		C00F78F01BECA87700072969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00F78F11BECA87700072969 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C00F790C1BECA87700072969 /* ChessGameRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C00F790D1BECA87700072969 /* ChessGameRecorderTests.m */,
+				C00F790F1BECA87700072969 /* Info.plist */,
+			);
+			path = ChessGameRecorderTests;
+			sourceTree = "<group>";
+		};
+		C00F79171BECA87700072969 /* ChessGameRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C00F79181BECA87700072969 /* ChessGameRecorderUITests.m */,
+				C00F791A1BECA87700072969 /* Info.plist */,
+			);
+			path = ChessGameRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00F78EC1BECA87700072969 /* ChessGameRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00F791D1BECA87700072969 /* Build configuration list for PBXNativeTarget "ChessGameRecorder" */;
+			buildPhases = (
+				C00F78E91BECA87700072969 /* Sources */,
+				C00F78EA1BECA87700072969 /* Frameworks */,
+				C00F78EB1BECA87700072969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessGameRecorder;
+			productName = ChessGameRecorder;
+			productReference = C00F78ED1BECA87700072969 /* ChessGameRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C00F79081BECA87700072969 /* ChessGameRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00F79201BECA87700072969 /* Build configuration list for PBXNativeTarget "ChessGameRecorderTests" */;
+			buildPhases = (
+				C00F79051BECA87700072969 /* Sources */,
+				C00F79061BECA87700072969 /* Frameworks */,
+				C00F79071BECA87700072969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C00F790B1BECA87700072969 /* PBXTargetDependency */,
+			);
+			name = ChessGameRecorderTests;
+			productName = ChessGameRecorderTests;
+			productReference = C00F79091BECA87700072969 /* ChessGameRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C00F79131BECA87700072969 /* ChessGameRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00F79231BECA87700072969 /* Build configuration list for PBXNativeTarget "ChessGameRecorderUITests" */;
+			buildPhases = (
+				C00F79101BECA87700072969 /* Sources */,
+				C00F79111BECA87700072969 /* Frameworks */,
+				C00F79121BECA87700072969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C00F79161BECA87700072969 /* PBXTargetDependency */,
+			);
+			name = ChessGameRecorderUITests;
+			productName = ChessGameRecorderUITests;
+			productReference = C00F79141BECA87700072969 /* ChessGameRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00F78E51BECA87700072969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Colman Marcus-Quinn";
+				TargetAttributes = {
+					C00F78EC1BECA87700072969 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C00F79081BECA87700072969 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C00F78EC1BECA87700072969;
+					};
+					C00F79131BECA87700072969 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C00F78EC1BECA87700072969;
+					};
+				};
+			};
+			buildConfigurationList = C00F78E81BECA87700072969 /* Build configuration list for PBXProject "ChessGameRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00F78E41BECA87700072969;
+			productRefGroup = C00F78EE1BECA87700072969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00F78EC1BECA87700072969 /* ChessGameRecorder */,
+				C00F79081BECA87700072969 /* ChessGameRecorderTests */,
+				C00F79131BECA87700072969 /* ChessGameRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00F78EB1BECA87700072969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00F79031BECA87700072969 /* LaunchScreen.storyboard in Resources */,
+				C00F79001BECA87700072969 /* Assets.xcassets in Resources */,
+				C00F78FB1BECA87700072969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00F79071BECA87700072969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00F79121BECA87700072969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00F78E91BECA87700072969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00F78FE1BECA87700072969 /* ChessGameRecorder.xcdatamodeld in Sources */,
+				C00F78F81BECA87700072969 /* ViewController.m in Sources */,
+				C00F78F51BECA87700072969 /* AppDelegate.m in Sources */,
+				C00F78F21BECA87700072969 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00F79051BECA87700072969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00F790E1BECA87700072969 /* ChessGameRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00F79101BECA87700072969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00F79191BECA87700072969 /* ChessGameRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C00F790B1BECA87700072969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00F78EC1BECA87700072969 /* ChessGameRecorder */;
+			targetProxy = C00F790A1BECA87700072969 /* PBXContainerItemProxy */;
+		};
+		C00F79161BECA87700072969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00F78EC1BECA87700072969 /* ChessGameRecorder */;
+			targetProxy = C00F79151BECA87700072969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C00F78F91BECA87700072969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00F78FA1BECA87700072969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C00F79011BECA87700072969 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00F79021BECA87700072969 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C00F791B1BECA87700072969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C00F791C1BECA87700072969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00F791E1BECA87700072969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChessGameRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.no-ip.ChessGameRecorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C00F791F1BECA87700072969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChessGameRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.no-ip.ChessGameRecorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C00F79211BECA87700072969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChessGameRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.no-ip.ChessGameRecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessGameRecorder.app/ChessGameRecorder";
+			};
+			name = Debug;
+		};
+		C00F79221BECA87700072969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChessGameRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.no-ip.ChessGameRecorderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessGameRecorder.app/ChessGameRecorder";
+			};
+			name = Release;
+		};
+		C00F79241BECA87700072969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChessGameRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.no-ip.ChessGameRecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChessGameRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C00F79251BECA87700072969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChessGameRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.no-ip.ChessGameRecorderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChessGameRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00F78E81BECA87700072969 /* Build configuration list for PBXProject "ChessGameRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00F791B1BECA87700072969 /* Debug */,
+				C00F791C1BECA87700072969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00F791D1BECA87700072969 /* Build configuration list for PBXNativeTarget "ChessGameRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00F791E1BECA87700072969 /* Debug */,
+				C00F791F1BECA87700072969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C00F79201BECA87700072969 /* Build configuration list for PBXNativeTarget "ChessGameRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00F79211BECA87700072969 /* Debug */,
+				C00F79221BECA87700072969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C00F79231BECA87700072969 /* Build configuration list for PBXNativeTarget "ChessGameRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00F79241BECA87700072969 /* Debug */,
+				C00F79251BECA87700072969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C00F78FC1BECA87700072969 /* ChessGameRecorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C00F78FD1BECA87700072969 /* ChessGameRecorder.xcdatamodel */,
+			);
+			currentVersion = C00F78FD1BECA87700072969 /* ChessGameRecorder.xcdatamodel */;
+			path = ChessGameRecorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C00F78E51BECA87700072969 /* Project object */;
+}
